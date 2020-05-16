@@ -5,6 +5,13 @@
     padding: 0;
 }
 
+/* подключение вручную */
+
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 .container {
     width: 1140px;
     position: relative;
@@ -14,7 +21,7 @@
 
 .promo {
     /* Style for "Rectangle" */
-    height: 800px;
+    min-height: 800px;
     /*  / - слеш обязательно . фон в одну строку  */
     background: url('../img/bg/main_bg.png') center center/cover no-repeat;
     padding: 39px 0 69px 0;
@@ -48,10 +55,10 @@ h1 {
 }
 
 .title {
+
     color: #f9bf3b;
-    font-family: "Roboto - Black";
     font-size: 41px;
-    font-weight: 400;
+    font-weight: 900;
     line-height: 24px;
     text-transform: uppercase;
     text-align: center;
@@ -59,16 +66,16 @@ h1 {
 
 .simple .title_big {
     color: #ffffff;
-    font-family: "Roboto - Black";
+
     font-size: 80px;
-    font-weight: 400;
+    font-weight: 900;
     /* line-height: 24px; */
     text-transform: uppercase;
     text-align: center;
     margin-top: 21px;
 }
 
-h2 .title {
+h2.title {
     margin-top: 30px;
 }
 
@@ -76,11 +83,9 @@ h2 .title {
     /* Style for "Ежедневно" */
 
     color: #ffffff;
-    font-family: Roboto;
     font-size: 21px;
     line-height: 28px;
     /* Text style for "Ежедневно" */
-    font-family: "Roboto Light";
     font-weight: 300;
     margin-top: 23px;
     padding: 0 23px;
@@ -91,7 +96,6 @@ h2 .title {
 .promo .promo_text span {
     /* Text style for "БЕСПЛАТНОМ" */
     color: #f9bf3b;
-    font-family: "Roboto - Bold";
     font-weight: 700;
 }
 
@@ -108,9 +112,8 @@ h2 .title {
     /* style of text */
     text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
     color: #ffffff;
-    font-family: "Roboto Condensed";
     font-size: 21px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 24px;
     text-transform: uppercase;
     /* cursor */
@@ -125,9 +128,9 @@ h2 .title {
 
 .more .more_text {
     color: #ffffff;
-    font-family: "Roboto - Thin";
+
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 100;
     line-height: 24px;
     text-transform: uppercase;
     text-align: center;
@@ -154,7 +157,6 @@ h2 .title {
 .waiting .waiting_header,
 .finish .finish_header {
     color: #252525;
-    font-family: Roboto;
     font-size: 30px;
     font-weight: 400;
     text-align: center;
@@ -178,7 +180,6 @@ h2 .title {
 
 .waiting .waiting_subheader {
     color: #4a4a4a;
-    font-family: Roboto;
     font-size: 23px;
     font-weight: 400;
     margin-top: 17px;
@@ -205,7 +206,6 @@ h2 .title {
 .waiting .waiting_wrapper .waiting_descr {
     margin-top: 33px;
     color: #4a4a4a;
-    font-family: Roboto;
     font-size: 15px;
     font-weight: 300;
     line-height: 21px;
@@ -224,10 +224,9 @@ h2 .title {
     margin-left: 391px;
     /* Style for "Что такое" */
     color: #299cbd;
-    font-family: "Roboto - Black";
     /* font-size: 30px;  */
     font-size: 29px;
-    font-weight: 400;
+    font-weight: 900;
     text-transform: uppercase;
 }
 
@@ -239,14 +238,12 @@ h2 .title {
     color: #4a4a4a;
     font-size: 17px;
     line-height: 27px;
-    font-family: "Roboto Light";
     font-weight: 300;
 
 }
 
 .optimization .optimization_text span {
     /* Text style for "Мы научим" */
-    font-family: "Roboto - Bold";
     font-weight: 700;
 }
 
@@ -289,9 +286,8 @@ h2 .title {
     margin-top: 25px;
     text-align: center;
     color: #efefef;
-    font-family: Roboto;
     font-size: 17px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 20px;
 }
 
@@ -318,7 +314,6 @@ h2 .title {
     padding-top: 42px;
     text-align: center;
     color: #252525;
-    font-family: Roboto;
     font-size: 30px;
     font-weight: 400;
     line-height: 43px;
@@ -350,7 +345,6 @@ h2 .title {
 .first_webinar .first_webinar_text .first_webinar_text1 {
     /* Style for "Первый веб" */
     color: #252525;
-    font-family: Roboto;
     font-size: 30px;
     font-weight: 400;
     line-height: 12px;
@@ -361,9 +355,8 @@ h2 .title {
     /* Style for "10 сентябр" */
     margin-top: 30px;
     color: #299cbd;
-    font-family: "Roboto - Black";
     font-size: 36px;
-    font-weight: 400;
+    font-weight: 900;
     line-height: 12px;
     text-transform: uppercase;
 }
@@ -372,49 +365,12 @@ h2 .title {
     /* Style for "Успейте за" */
     margin-top: 25px;
     color: #4a4a4a;
-    font-family: Roboto;
     font-size: 23px;
     font-weight: 400;
     line-height: 20px;
 }
 
-.footer {
-    min-height: 166px;
-    background-color: #1a1a1a;
-    padding: 61px 0 69px 0;
-}
-
-.footer .footer_item {
-    width: 377px;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-
-}
-
-.footer .footer_item .footer_href a {
-    color: #888888;
-    font-family: Roboto;
-    font-size: 15px;
-    font-weight: 300;
-    line-height: 21px;
-
-}
-
-.footer .footer_item .footer_href span {
-    color: #888888;
-}
-
-.footer .footer_item .footer_tel {
-    color: #888888;
-    font-family: Roboto;
-    font-size: 15px;
-    font-weight: 300;
-    line-height: 21px;
-    margin-top: 6px;
-}
-
-/* teacher variant  */
+/* footer  */
 
 footer {
     min-height: 166px;
@@ -427,7 +383,6 @@ footer {
     width: 377px;
     text-align: center;
     color: #888888;
-    font-family: Roboto;
     font-size: 15px;
     font-weight: 300;
     line-height: 21px;
@@ -435,7 +390,6 @@ footer {
 
 footer a {
     color: #888888;
-    font-family: Roboto;
     font-size: 15px;
     font-weight: 300;
     line-height: 21px;
